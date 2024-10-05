@@ -1,7 +1,7 @@
 /* CreatePackage.css */
 
 /* Main container for the entire page */
-.create-package-container {
+.create-package{
     background-image: url('/Images/back.png');  
     background-size: cover;
     background-position: center;
@@ -38,7 +38,7 @@
     letter-spacing: 1px;
 }
 
-.text-center{
+.create{
     margin: 0;
     text-align: center;
     color:black;
@@ -64,7 +64,7 @@
 }
 
 /* Form Group */
-.form-group {
+.form-grouping {
     background-color: rgba(255, 255, 255, 0);
     border-radius: 15px;
     padding: 20px;
@@ -105,7 +105,7 @@
     background-color: #0056b3;
 }
 
-.btn btn-success btn-sm{
+.btn-addPackage{
     background-color: #0056b3;
 }
 

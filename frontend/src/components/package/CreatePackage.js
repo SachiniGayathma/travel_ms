@@ -163,7 +163,7 @@ export default function CreatePackage() {
     };
 
     return (
-        <div className="create-package-container">
+        <div className="create-package">
             <nav className="navbar">
                 <h2 className="navbar-title">Travel Agency</h2>
                 <ul className="navbar-links">
@@ -171,9 +171,9 @@ export default function CreatePackage() {
                     <li onClick={() => navigate("/packages")}>View Packages</li>
                 </ul>
             </nav>
-            <h3 className="text-center">Create New Package</h3>
+            <h3 className="create">Create New Package</h3>
 
-            <div className="form-group d-flex flex-column gap-2 shadow-lg p-8 rounded">
+            <div className="form-grouping d-flex flex-column gap-2 shadow-lg p-8 rounded">
                 {message && <p className="text-success">{message}</p>}
                 {error && <p className="text-danger">{error}</p>}
                 <input
@@ -318,7 +318,7 @@ export default function CreatePackage() {
                     type="number"
                 />
 
-                <button onClick={handleSubmit} className="btn btn-success btn-sm">
+                <button onClick={handleSubmit} className="btn-addPackage">
                     Add Package
                 </button>
             </div>
