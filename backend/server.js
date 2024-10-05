@@ -6,6 +6,7 @@ const multer = require('multer');
 const path = require('path');
 
 
+
 dotenv.config(); // Load environment variables
 
 const app = express();
@@ -39,7 +40,7 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
-
+//a small change
 // Import the property routes
 const propertyRouter = require("./routes/Properties.js");
 const packageRouter = require("./routes/packageRoutes.js")
