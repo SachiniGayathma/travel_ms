@@ -46,7 +46,7 @@ const packageRouter = require("./routes/packageRoutes.js")
 
 // Use the property router for "/property" endpoint
 app.use("/property", propertyRouter);
-app.use("/package", packageRouter)
+app.use("/packages", packageRouter)
 app.use('/uploads', express.static('uploads'));
 
 

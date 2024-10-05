@@ -2,7 +2,7 @@
 
 /* Main container for the entire page */
 .create-package-container {
-    /* background-image: url('../../Images/back.png');  */
+    background-image: url('/Images/back.png');  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

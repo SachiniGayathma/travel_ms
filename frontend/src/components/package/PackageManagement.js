@@ -16,7 +16,7 @@ export default function PackageManagement() {
         location: "",
         services: ""
     });
-    const apiUrl = "http://localhost:8000";
+    const apiUrl = "http://localhost:8070";
     const navigate = useNavigate();
 
     useEffect(() => {
